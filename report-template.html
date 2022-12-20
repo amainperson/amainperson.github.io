@@ -32,7 +32,7 @@
 
 <body id="top" onload="">
 
-    <h1 class="text-center">Report 1</h1>
+    <h1 class="text-center">Report 2</h1>
 
     <div x-data="{}">
         <p class="text-center" id="datetimepub" x-ref="datetimepub" x-init="$el.innerHTML = DateTime.fromISO('{{ noformatdate }}').toLocaleString(DateTime.DATETIME_MED) + ' | ' + DateTime.fromISO('{{ noformatdate }}').toRelative({ unit: ['years', 'quarters', 'months', 'weeks', 'days', 'hours', 'minutes'] });
